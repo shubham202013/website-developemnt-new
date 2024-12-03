@@ -1,0 +1,2 @@
+AREA_VIEW = "area"
+

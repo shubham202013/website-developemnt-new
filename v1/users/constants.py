@@ -1,0 +1,16 @@
+# USER_ROLE_CHOICES
+ROLE_EMPLOYEE = 1
+ROLE_MANAGER = 2
+ROLE_ADMIN = 3
+ROLE_CLIENT = 4
+USER_ROLE_CHOICES = (
+    (ROLE_EMPLOYEE, "Employee"),
+    (ROLE_MANAGER, "Manager"),
+    (ROLE_ADMIN, "Company Admin"),
+    (ROLE_CLIENT, "Client"),
+)
+
+
+REFERRAL_TYPE_BOTH_USER = "both_user"
+REFERRAL_TYPE_FROM_USER = "from_user"
+REFERRAL_TYPE_TO_USER = "to_user"
